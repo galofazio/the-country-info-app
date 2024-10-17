@@ -1,0 +1,15 @@
+.recharts-wrapper {
+    width: 100% !important;
+}
+
+.recharts-wrapper tspan {
+    color: black !important;
+}
+
+.recharts-wrapper span {
+    color: black !important;
+}
+
+path {
+    fill: #48a4e2 !important;
+}

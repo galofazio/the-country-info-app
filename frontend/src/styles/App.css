@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Definición de clase con Exo 2 */
+.exo-2-unique {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Cambia este valor según sea necesario */
+  font-style: normal;
+}
+
+header {
+  width: 100%;
+  background-color: #d8d8d8;
+}
+
+header h1 {
+  margin: 0;
+  padding: 15px 30px;
+  color: #48a4e2;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Exo 2";
+}
+
+#main-container {
+  display: flex;
+  max-height: calc(100vh - 78px);
+}
+
+aside {
+  width: 320px !important;
+  max-height: 100%;
+  padding: 15px 0;
+  border-right: 1px solid #d8d8d8;
+  background-color: #e6e6e6;
+}
+
+aside h3 {
+  margin: 0;
+  font-family: "Exo 2";
+  font-size: 24px;
+  padding-left: 20px;
+
+ }
+
+#countries-ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  overflow-y: scroll;
+  max-height: calc(100% - 29px);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+#countries-ul li {
+  background-color: #d8d8d8;
+  margin-bottom: 2px;
+  padding: 5px 15px;
+  border-radius: 8px;
+  transition: ease 0.3s;
+  font-size: 20px;
+}
+
+#countries-ul li:hover {
+  transform: scale(1.05);
+  color: #48a4e2;
+  font-weight: 500;
+}
+
+#countries-ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+#countries-ul::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+#countries-ul::-webkit-scrollbar-thumb {
+  background: #d8d8d8;
+  border-radius: 10px;
+  cursor: grab;
+}
